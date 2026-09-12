@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latimer Service Plumbing | Saucier, MS</title>
+    <meta name="description" content="Latimer Service Plumbing — emergency plumbing, drain cleaning, and water heater service in Saucier & Harrison County, Mississippi. Call (228) 669-4036.">
+    <style>
+        :root {
+            --primary-dark: #0f172a;
+            --accent-orange: #d97706;
+            --accent-hover: #b45309;
+            --bg-light: #f8fafc;
+            --text-main: #334155;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding-bottom: 90px; /* Space for sticky mobile button */
+        }
+        header {
+            background-color: var(--primary-dark);
+            color: #ffffff;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            border-bottom: 4px solid var(--accent-orange);
+        }
+        header h1 {
+            font-size: 1.75rem;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+        header p {
+            font-size: 0.95rem;
+            color: #94a3b8;
+            font-weight: 500;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+        .card {
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            font-size: 1.25rem;
+            color: var(--primary-dark);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        p.intro {
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+        }
+        .services-list {
+            list-style: none;
+        }
+        .services-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #f1f5f9;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: 500;
+        }
+        .services-list li:last-child {
+            border-bottom: none;
+        }
+        .services-list li::before {
+            content: "✓";
+            color: var(--accent-orange);
+            font-weight: bold;
+        }
+        .reviews {
+            background: #fffbeb;
+            border-left: 4px solid var(--accent-orange);
+            padding: 1rem;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.95rem;
+            font-style: italic;
+            margin-top: 1rem;
+        }
+        .reviews cite {
+            display: block;
+            margin-top: 0.5rem;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 0.85rem;
+            color: #78350f;
+        }
+        /* Sticky Mobile CTA Bar */
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: #ffffff;
+            padding: 0.75rem 1rem;
+            box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            z-index: 1000;
+        }
+        .cta-button {
+            display: block;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: var(--accent-orange);
+            color: white;
+            text-decoration: none;
+            font-size: 1.15rem;
+            font-weight: bold;
+            padding: 0.85rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(217, 119, 6, 0.3);
+            transition: background-color 0.2s;
+        }
+        .cta-button:active {
+            background-color: var(--accent-hover);
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Latimer Service Plumbing</h1>
+        <p>Saucier &amp; Harrison County, Mississippi</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <p class="intro">When plumbing emergencies strike, you don't have time to wade through complicated menus. Get honest, dependable local service right away.</p>
+            <a href="tel:2286694036" class="cta-button" style="margin-top: 1rem; text-align: center;">Call (228) 669-4036</a>
+        </div>
+
+        <div class="card">
+            <h2>Our Services</h2>
+            <ul class="services-list">
+                <li>Emergency Plumbing Repairs &amp; Leaks</li>
+                <li>Drain Cleaning &amp; Clog Removal</li>
+                <li>Water Heater Repair &amp; Installation</li>
+                <li>Fixture, Faucet, and Toilet Upgrades</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Why Choose Us</h2>
+            <p>Proudly serving Saucier and surrounding Harrison County homes with direct communication and dependable quality done right the first time.</p>
+            
+            <div class="reviews">
+                "Super fast response when our pipe burst. Fixed it cleanly and professionally without breaking the bank."
+                <cite>— Local Homeowner, Saucier</cite>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Latimer Service Plumbing. All rights reserved.
+    </footer>
+
+    <!-- Sticky Bottom Call Button for Mobile -->
+    <div class="sticky-cta">
+        <a href="tel:2286694036" class="cta-button">Tap to Call (228) 669-4036</a>
+    </div>
+
+</body>
+</html>
